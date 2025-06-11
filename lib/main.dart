@@ -57,7 +57,7 @@ class WeatherProvider with ChangeNotifier {
   String get unit => _unit;
   DateTime? get lastUpdated => _lastUpdated;
 
-  final String apiKey = 'e6d5d3e3490cda75ac56e016fa566c51';
+  final String apiKey = 'Your API KEY Here';
 
   void toggleUnit() {
     _unit = _unit == 'metric' ? 'imperial' : 'metric';
